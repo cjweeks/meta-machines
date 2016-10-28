@@ -1,0 +1,18 @@
+
+# this is a comment line
+
+type: dfa
+
+states: 5
+
+accept: 1, 2, 3
+
+alphabet: a, b, c
+
+transitions:
+    0: a->1, b->0
+    1: a->1, b->
+    2:
+
+
+
