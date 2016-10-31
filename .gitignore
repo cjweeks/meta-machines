@@ -90,3 +90,6 @@ ENV/
 
 # PyCharm Files
 .idea/
+
+# Template Files
+cc-templates/
