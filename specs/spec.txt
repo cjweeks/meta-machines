@@ -1,18 +1,18 @@
 
 # this is a comment line
 
-type: dfa
+type: dfa;
 
-states: 5
+states: 3;
 
-accept: 1, 2, 3
+accept: 2;
 
-alphabet: a, b, c
+alphabet: a, b;
 
 transitions:
-    0: a->1, b->0
-    1: a->1, b->
-    2:
+    0: a->1, b->0;
+    1: a->1, b->0;
+    2: a->0, b->2
 
 
 
